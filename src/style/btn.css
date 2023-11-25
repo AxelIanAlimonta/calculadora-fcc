@@ -1,0 +1,40 @@
+.btn {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  height: 50px;
+  cursor: pointer;
+  user-select: none;
+  color: white;
+}
+
+#zero,
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine {
+  background-color: rgb(31, 31, 31);
+}
+
+#add,
+#subtract,
+#multiply,
+#divide,#decimal {
+  background-color: rgb(79, 79, 79);
+
+}
+
+#clear{
+  background-color: rgb(191, 50, 50);
+}
+
+#equals{
+  background-color: rgb(43, 153, 189);
+}
